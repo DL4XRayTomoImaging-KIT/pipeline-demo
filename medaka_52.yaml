@@ -1,0 +1,7 @@
+input:
+    files: '/mnt/LSDF/projects/code-vita/Medaka/2018_11/Medaka_*_39-2/slices.tif'
+    regexp: '53\d'
+    regexp_mode: 'not_contains'
+output:
+    folder: './tmp_data'
+    path_step: -2

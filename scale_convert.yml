@@ -1,0 +1,9 @@
+scale:
+  scale: 0.5
+rescale:
+  from_percentile: 1
+  to_percentile: 99.95
+  apply_sigmoid: False
+  disjoint_distributions: False
+  to_format: 'uint8'
+  autoscale: True
