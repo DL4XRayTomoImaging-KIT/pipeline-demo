@@ -25,3 +25,9 @@ git clone git@github.com:DL4XRayTomoImaging-KIT/pipeline-demo.git
 cd pipeline-demo
 bash run_medaka_test.sh
 ```
+
+## Results Sanity Check
+
+To check if the pipeline was sane, safe, and sound, run the `results_review.ipynb`.
+I expect conda to be installed for this, and therefore additionally install only required libraries.
+This notebook checks that files are binned correctly (fish is visually ok), segmentation produced some results (not perfect tho), post-processing has removed some noisy parts, and the test database contains some records.
